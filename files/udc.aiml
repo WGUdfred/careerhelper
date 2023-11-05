@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Hello</pattern>
+    <template>Hello, I will ask you a series of questions and, based on your 
+    input, at the end of this session I will recommend a computer science 
+    career for you. Would you prefer to work with others or work independently?</template>
+  </category>
+  
+  <category>
+      <pattern>I would like to work with others</pattern>
+      <template>I have noted that you want to work with others. My next question is 
+      would you be more interested in security or development?</template>
+  </category>
+
+<category><pattern>with others</pattern><template><srai>I WOULD LIKE TO WORK ON A TEAM</srai></template></category>
+<category><pattern>others</pattern><template><srai>I WOULD LIKE TO WORK ON A TEAM</srai></template></category>
+<category><pattern>work with others</pattern><template><srai>I WOULD LIKE TO WORK ON A TEAM</srai></template></category>
+
+  
+  <category>
+      <pattern>I am more interested in security</pattern>
+      <template>A career that might fit you would be Information Security Analyst.</template>
+  </category>
+
+<category><pattern>interested in security</pattern><template><srai>I AM MORE INTERESTED IN SECURITY</srai></template></category>
+<category><pattern>security</pattern><template><srai>I AM MORE INTERESTED IN SECURITY</srai></template></category>
+
+  
+  <category>
+      <pattern>I am more interested in development</pattern>
+      <template>For my last question, would you prefer to work on visual elements of
+      projects or code that isn't seen?</template>
+  </category>
+
+<category><pattern>development</pattern><template><srai>I AM MORE INTERESTED IN DEVELOPMENT</srai></template></category>
+
+  
+  <category>
+      <pattern>I prefer to work on visual elements</pattern>
+      <template>A career that might fit you might be UX Designer.</template>
+  </category>
+
+<category><pattern>visual elements</pattern><template><srai>I PREFER TO WORK ON VISUAL ELEMENTS</srai></template></category>
+<category><pattern>visual</pattern><template><srai>I PREFER TO WORK ON VISUAL ELEMENTS</srai></template></category>
+
+  
+  <category>
+      <pattern>I prefer to work on code</pattern>
+      <template>A career that might fit you might be Back End Developer.</template>
+  </category>
+
+<category><pattern>code</pattern><template><srai>I PREFER TO WORK ON CODE</srai></template></category>
+
+  
+  <category>
+      <pattern>I prefer to work independently</pattern>
+      <template>Since you prefer to work alone, my next question is would you prefer
+      flexibility or stability in your working hours?</template>
+  </category>
+
+<category><pattern>independently</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>work independently</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>prefer to work independently</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>I would prefer to work independently</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>I would like to work independently</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>alone</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>work alone</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>prefer to work alone</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>I prefer to work alone</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>I would prefer to work alone</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+<category><pattern>I would like to work alone</pattern><template><srai>I PREFER TO WORK INDEPENDENTLY</srai></template></category>
+
+  
+  <category>
+      <pattern>I prefer flexibility</pattern>
+      <template>A career that might fit you might be Mobile App Developer.</template>
+  </category>
+
+<category><pattern>flexibility</pattern><template><srai>I PREFER FLEXIBILITY</srai></template></category>
+
+  
+  <category>
+      <pattern>I prefer stability</pattern>
+      <template>A career that might fit you might be Network Engineer.</template>
+  </category>
+
+<category><pattern>stability</pattern><template><srai>I PREFER STABILITY</srai></template></category>
+
+  
+  <category>
+      <pattern></pattern>
+      <template></template>
+  </category>
+</aiml>
